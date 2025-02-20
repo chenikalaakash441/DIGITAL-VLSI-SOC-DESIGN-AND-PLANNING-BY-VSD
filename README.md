@@ -116,3 +116,26 @@ transition time: Time(slew_high_rise_thr)-time(slew_low_rise_thr)
 input slew and output slew are calculated using these timing threshold definitions.
 
 # Day 3 - Design library cell using Magic layout and ngspice characterization
+## spice deck creation for cmos inverter
+VTC-spice simulation
+* component cnnectivity
+* component values
+* identify nodes
+* name nodes
+
+## spice simulation lab for cmos inverter
+the cmos inverter is simulated after doing the above steps. Simulation is done using .trans or .dc sweep for VTC
+
+## switching threshold Vm
+the switching threshold Vm is defined by the transistor sizes of pmos and nmos where length is fixed and widths are varied. It means the width of pmos transistor is some multiple of width of nmos transistor(Wp=2.5Wn).The Vm is selected in such a way that the VTC curve should be smooth it describes the delay of the inverter.
+
+## Steps to gitclone vsdstdcelldesign
+The vsdstdcelldesigned is gitcloned by using github link of vsdstdcelldesign
+
+## Steps to create final spice deck using sky130 tech
+The spice deck of inverter is extracted from vsdstdcelldesign of sky130_inv.mag file by using command of ext2spice
+![image alt](
+The generated spice deck is shown below
+![image alt](
+the updated spice deck for simulation is shown below
+![image alt](
