@@ -17,3 +17,4 @@ the flow is as follows
 synthesis (RTL as input) => Floorplan + powerplan => placement => CTS (PDK as another input) => route => signoff => GDS2
 ### Design preparation step
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/5a9a6b60504bc9ad71acc1990eda7cac72da1162/Screenshot%202025-02-17%20162734.jpg)
+### running synthesis
