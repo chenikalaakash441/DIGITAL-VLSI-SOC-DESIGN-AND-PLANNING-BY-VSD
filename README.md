@@ -69,7 +69,7 @@ Library characterization and modelling: The logic cells are designed with differ
 
 ## Congestion aware placement using Replace
 placement is done using command run_placement and then it is viewed using magic layout.
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/70678743239e16d4bb31558d892b62211ffa0e09/placementmagic.jpg)
 ![image alt](
 
 ## cell design and characterization flows
