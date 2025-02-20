@@ -54,4 +54,65 @@ the def file is shown below
 
 ## Review floorplan layout in Magic
 The floorplan layout is generated using magic layout tool by reading tech file and lef file and def file.
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/04cef00dd79616802df96be75d4187a8012c37a7/magiclayout.jpg)
+
+## Netlist binding and initial place design
+the netlist is binded with physical cells and the logic cells are placed in the core area
+
+## Optimize placement using estimated wire-length and capacitance
+* The placement is optimized by estimating wire-length and capacitance
+* Repeaters (data buffers) are inserted in the placement stage to avoid loss of signal i.e., to maintain signal integrity between logic cells  and logic cells and between inputs and logic cells and between logic cells and output pins.
+
+## Need for libraries and characterization
+The technology libraries which designed based on process,voltage and temperature in three formats such as minimum and maximum and typical conditions of above three parameters which gives the information about physical cells.
+Library characterization and modelling: The logic cells are designed with different sizes and different functionality and different Vt.
+
+## Congestion aware placement using Replace
+placement is done using command run_placement and then it is viewed using magic layout.
 ![image alt](
+![image alt](
+
+## cell design and characterization flows
+### inputs for cell design flow
+It contains PDK's: 
+* DRC & LVS rules- which are tech file with lambda based design rules
+* spice models - designed with spice model parameters for example pmos and nmos transistors spice model netlist is designed by using these spice model parameters.
+* library and user defined specs - which contains info of cell height,supply voltage,metal layers,pin locations,drawn gate length.
+
+### Design steps
+* circuit design - the required ratio of pmos vs nmos transistor size can be derived such that Vm is set.
+* Layout design - Art of layout such as Euler's path and stick diagram
+* characterization (timing,power,noise)
+
+### outputs
+* circuit description language
+* GDS2,LEF,extracted spice netlist(.cir)
+* Timing,noise,power,.libs,function
+
+### characterization flow
+1) To reading the model files
+2) To read the extracted spice netlist
+3) To define or recognize the behavior of buffer
+4) To read in the sub ckt of the inverter
+5) Attach the power sources
+6) To apply the stimulus
+7) To give neccessary output load capacitance
+8) To give neccessary simulation command (.trans,.dc)
+Feeding all these steps into GUNA softwareit generates timing,noise,power,.libs function models 
+
+## General timing characterization parameters
+### Timing threshold defnitions
+* slew_low_rise_thr , slew_low_fall_thr = 20%
+* slew_high_rise_thr , slew_high_fall_thr = 80%
+* in_rise_thr , in_fall_thr , out_rise_thr , out_fall_thr = 50%
+
+### Propagation delay
+propagation delay: time(out_*_thr) - time(in_*_thr)
+time(in_rise_thr) = 50%
+time(out_fall_thr) = 50%
+
+### Transition time
+transition time: Time(slew_high_rise_thr)-time(slew_low_rise_thr)
+input slew and output slew are calculated using these timing threshold definitions.
+
+# Day 3 - Design library cell using Magic layout and ngspice characterization
