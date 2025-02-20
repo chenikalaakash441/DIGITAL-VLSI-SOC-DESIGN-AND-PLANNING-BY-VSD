@@ -147,4 +147,49 @@ the updated spice deck for simulation is shown below
 The characterization of inverter is done by doing trans simulation 
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/5b71792f9917db7334aeabfcb1e9bc77355aafae/invsimulation.jpg)
 proopagation delay of inverter is obtained by using magic layout tool with definition of propagation delay is 0.058ns=58ps.
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/204ded034b58ac110f91619f26eef8747dc949c5/propagationdelay.jpg)
+
+# Day 4 - Prelayout timing analysis and importance of good clock tree
+## Steps to convert grid info to track info
+the layout of inverter is modified with the grids by using grid command with metal informations of x and y coordinates with some spacing after generating of grids check that the contacts are placed at the interconnect of vertical and horizontal grid lines.
+the cell dimensions are placed with in these grids i.e., odd multliple of height and widths of metals dimensions.
+
+The track info is shown below
+
+## steps to convert magic layout to std cell lef
+the lef file of std cell of inverter is obtained by doing write lef in tickon window
+
+## steps to configure synthesis settings to fix slack and include vsdinv
+after synthesis of picorv32a it is violated with slack but the floorplan and placement is done.
+now the synthesis is done again and trying to fix the slack with the setting MAX_CAP_FANOUT to 4 and slack is not met and the lef file of sky130_vsdinv.lef is inserted into picorv32a design and acts as lef input.
+
+## re-synthesis and re-floorplan and re-placement with vsdinv
+
+
+
+## Steps to configure openSTA for post-synth timing analysis
+the pre_sta_config.tcl is created giving synthesized netlist as input
+the slack is checked it is not met
+after analysing net connections and the cells, the cells with more delay are replaced with large size cells such that slack is reduced and it is obtained as -21.85 from -26.64
+this synthesized netlist is updated and overwrited in the synthesis results of design.
+
+## re-floorplan and re-placement and cts done
+after doing re-floorplan and re-placement with the updated synthesized netlist the cts is done using command run_cts
+the slack did not met it shows -7.63 
+
+## Analyze timing with real clocks using openSTA and with right timing libraries and to observe impact of bigger cts buffers on setup and hold timings
+After cts the openroad is open for STA
+In that after reading lef,def,tech libraries,db,verilog,sdc and linking design with picorv32a and then setting propagated clock and doing report checks of timing.
+for min and max libraries the slack is 4.28
+
+for typical library the slack is -5.22
+after removing sky130_fd_sc_hd_clkbuffer1 for typical library the slack is -5.15
+after removing sky130_fd_sc_hd_clkbuffer1 for min max libraries the slack is 3.6395 for setup and for hold is 1.9582
+
+
+# Day 5 - Final steps for RTL2GDS using tritonRoute and openSTA
+## 
+
+
+
+
