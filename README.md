@@ -21,3 +21,5 @@ synthesis (RTL as input) => Floorplan + powerplan => placement => CTS (PDK as an
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/3460f6621b9f17eee70312bb10b818361eec904e/syncomplete.jpg)
 ### steps to characterize synthesis results
 flop ratio:dxtp_4 =1634/17323=0.094
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/04097f3495ab985864c79377393bcd0fb7ef1a61/dffcount.jpg)
+after running the command run_synthesis it gives synthesized netlist
