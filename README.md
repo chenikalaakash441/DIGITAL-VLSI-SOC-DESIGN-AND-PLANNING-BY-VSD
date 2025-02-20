@@ -50,4 +50,8 @@ after running synthesis run_floorplan command is used to run the floorplan.(init
 after completion of floorplan the floorplan def file is created.
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/73f53bca6d5a665357aea0a07714ecd40191c069/def.jpg)
 the def file is shown below
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/9a0ec658f2269c34bb202319b8639ec9ee2100e1/deffile.jpg)
+
+## Review floorplan layout in Magic
+The floorplan layout is generated using magic layout tool by reading tech file and lef file and def file.
 ![image alt](
