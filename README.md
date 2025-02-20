@@ -46,5 +46,6 @@ The input pins are placed at left side and the output pins are placed at right s
 
 ## steps to run floorplan using openlane
 after running synthesis run_floorplan command is used to run the floorplan.(init_floorplan => place_io => tap_decap_or)
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/d6817ba4eea505ac3c80c3c47aa34bb32ef1c897/floorplancomplete.jpg)
 after completion of floorplan the floorplan def file is created.
+![image alt](
