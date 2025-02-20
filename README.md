@@ -145,6 +145,6 @@ the updated spice deck for simulation is shown below
 
 ## steps to characterize inverter using sky130 model files
 The characterization of inverter is done by doing trans simulation 
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/5b71792f9917db7334aeabfcb1e9bc77355aafae/invsimulation.jpg)
 proopagation delay of inverter is obtained by using magic layout tool with definition of propagation delay is 0.058ns=58ps.
 ![image alt](
