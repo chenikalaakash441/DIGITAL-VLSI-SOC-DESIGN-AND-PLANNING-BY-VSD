@@ -18,3 +18,6 @@ synthesis (RTL as input) => Floorplan + powerplan => placement => CTS (PDK as an
 ### Design preparation step
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/5a9a6b60504bc9ad71acc1990eda7cac72da1162/Screenshot%202025-02-17%20162734.jpg)
 ### running synthesis
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/3460f6621b9f17eee70312bb10b818361eec904e/syncomplete.jpg)
+### steps to characterize synthesis results
+flop ratio:dxtp_4 =1634/17323=0.094
