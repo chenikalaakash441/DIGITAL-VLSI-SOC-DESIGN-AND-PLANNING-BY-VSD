@@ -131,6 +131,7 @@ the switching threshold Vm is defined by the transistor sizes of pmos and nmos w
 
 ## Steps to gitclone vsdstdcelldesign
 The vsdstdcelldesigned is gitcloned by using github link of vsdstdcelldesign
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/e672a9e730851c38aa0a02763d0a6dfc350593c7/stdinverterlayout.jpg)
 
 ## Steps to create final spice deck using sky130 tech
 The spice deck of inverter is extracted from vsdstdcelldesign of sky130_inv.mag file by using command of ext2spice
