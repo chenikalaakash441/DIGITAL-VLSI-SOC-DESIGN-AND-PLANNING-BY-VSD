@@ -137,6 +137,6 @@ The vsdstdcelldesigned is gitcloned by using github link of vsdstdcelldesign
 The spice deck of inverter is extracted from vsdstdcelldesign of sky130_inv.mag file by using command of ext2spice
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/505e2184dfbbd5cd4a832384e01cb4fcfea38954/extractingparasitics.jpg)
 The generated spice deck is shown below
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/7ea1d65bd2e538a457bc33b8b198bfa62f5a75dd/spicedeck.jpg)
 the updated spice deck for simulation is shown below
 ![image alt](
