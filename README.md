@@ -133,10 +133,18 @@ the switching threshold Vm is defined by the transistor sizes of pmos and nmos w
 The vsdstdcelldesigned is gitcloned by using github link of vsdstdcelldesign
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/e672a9e730851c38aa0a02763d0a6dfc350593c7/stdinverterlayout.jpg)
 
-## Steps to create final spice deck using sky130 tech
+## Steps to create std cell layout and extract spice netlist
 The spice deck of inverter is extracted from vsdstdcelldesign of sky130_inv.mag file by using command of ext2spice
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/505e2184dfbbd5cd4a832384e01cb4fcfea38954/extractingparasitics.jpg)
 The generated spice deck is shown below
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/7ea1d65bd2e538a457bc33b8b198bfa62f5a75dd/spicedeck.jpg)
+
+## Steps to create final spice deck using sky130 tech
 the updated spice deck for simulation is shown below
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/55db0fc63a92c9a2b9c4732671015e1f7aa4c8da/editedspicedeck.jpg)
+
+## steps to characterize inverter using sky130 model files
+The characterization of inverter is done by doing trans simulation 
+![image alt](
+proopagation delay of inverter is obtained by using magic layout tool with definition of propagation delay is 0.058ns=58ps.
 ![image alt](
