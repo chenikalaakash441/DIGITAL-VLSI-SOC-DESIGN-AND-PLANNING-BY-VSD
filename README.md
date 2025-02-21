@@ -225,7 +225,7 @@ The spef file is extracted using following command shown in below
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/59a693788a4adfa989f2ae6b5467ce393a388421/speffilegeneration.jpg)
 
 the spef file is shown below
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/a6dc0cc6406f5a0fa9275bea36b4e959efb443c6/speffile.jpg)
 
 
 
