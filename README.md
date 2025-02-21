@@ -232,7 +232,7 @@ The following commands are used to get the min and max slacks which are hold and
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/f58fe808aa2b67e6086f007e50249817045d8b70/poststa.jpg)
 
 the hold slack is met and shown below
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/813a2044e2496b1d2f4903600a715f6bd0c61c2e/holdslack.jpg)
 
 the setupslack is met and shown below
 ![image_alt](
