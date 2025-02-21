@@ -159,7 +159,7 @@ The track info is shown below
 
 ## steps to convert magic layout to std cell lef
 the lef file of std cell of inverter is obtained by doing write lef in tickon window
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/aa6928137baf39eae2185c5ad1c852da0b256ea5/vsdinvleffile.jpg)
 
 ## steps to configure synthesis settings to fix slack and include vsdinv
 * after synthesis of picorv32a it is violated with slack but the floorplan and placement is done.
