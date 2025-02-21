@@ -205,7 +205,7 @@ re-placement - the placement def file is shown below which includes sky130_vsdin
 # Day 5 - Final steps for RTL2GDS using tritonRoute and openSTA
 ## steps to build power distribution network
 The power distribution network for the design is implemented using the command gen_pdn but before this make sure that the current def file should be in cts stage.
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/42bc9f7125b8c041de513506ebd50e2b02393a13/pdn_gen.jpg)
 
 The power distribution network layout is shown below
 ![image alt](
