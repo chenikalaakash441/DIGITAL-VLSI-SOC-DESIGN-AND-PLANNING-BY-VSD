@@ -170,7 +170,7 @@ re-Synthesis
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/c8229110c59aa40d9241e441304e4bb2a1bb37e0/synthesisofinvlefsuccess.jpg)
 
 re-floorplan
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/1bf390cd90a362bb42553bf43ff1cdea904817ed/refloorplandone.jpg)
 
 re-placement
 ![image alt](
