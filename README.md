@@ -218,7 +218,7 @@ The routed def file is shown below
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/33b52f1819883d74ba82b5773f40883e6a0e055b/routeddeffile.jpg)
 
 The routing layout is shown below
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/7c9fa9f765b27fd8908809a2c1eb1ee34163d8c3/rutingdefmagic.jpg)
 
 ## spef extraction
 The spef file is extracted using following command shown in below
