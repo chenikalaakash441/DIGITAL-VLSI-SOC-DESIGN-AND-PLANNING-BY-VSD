@@ -212,6 +212,9 @@ The power distribution network layout is shown below
 
 ## Detailed routing using Triton-route
 The current def file should be in pdn stage and set the ROUTING_STRATEGY should be 0 and then run the command run_routing.
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/4eb86ab76e1792843e469ba53019f46c3f8572f5/routedfilegenerated.jpg)
+
+The routed def file is shown below
 ![image alt](
 
 The routing layout is shown below
