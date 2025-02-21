@@ -192,7 +192,8 @@ re-placement
 ## Analyze timing with real clocks using openSTA and with right timing libraries and to observe impact of bigger cts buffers on setup and hold timings
 * After cts the openroad is open for STA
 * In that after reading lef,def,tech libraries,db,verilog,sdc and linking design with picorv32a and then setting propagated clock and doing report checks of timing.
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/1f496876d608aa73ab5713a32c39bcbc589af762/openroadflow.jpg)
+
 * for min and max libraries the slack is 4.28
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/c3610e91822a2ae0780f5a3098cdeb6a9d9e27b7/slackofmimmaxlib.jpg)
 
