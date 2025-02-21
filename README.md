@@ -229,7 +229,7 @@ the spef file is shown below
 
 ## Post-STA analysis
 The following commands are used to get the min and max slacks which are hold and setup analysis.
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/f58fe808aa2b67e6086f007e50249817045d8b70/poststa.jpg)
 
 the hold slack is met and shown below
 ![image alt](
