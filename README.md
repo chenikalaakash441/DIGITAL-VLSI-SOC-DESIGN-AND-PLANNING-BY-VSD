@@ -173,7 +173,7 @@ re-floorplan
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/1bf390cd90a362bb42553bf43ff1cdea904817ed/refloorplandone.jpg)
 
 re-placement
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/60f715e13fd106a549c4330e176b7cdb71b53429/invplacementdeffile.jpg)
 
 
 ## Steps to configure openSTA for post-synth timing analysis
