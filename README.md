@@ -222,7 +222,7 @@ The routing layout is shown below
 
 ## spef extraction
 The spef file is extracted using following command shown in below
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/59a693788a4adfa989f2ae6b5467ce393a388421/speffilegeneration.jpg)
 
 the spef file is shown below
 ![image alt](
