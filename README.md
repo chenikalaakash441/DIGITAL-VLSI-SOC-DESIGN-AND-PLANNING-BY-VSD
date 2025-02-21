@@ -227,7 +227,7 @@ The spef file is extracted using following command shown in below
 the spef file is shown below
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/a6dc0cc6406f5a0fa9275bea36b4e959efb443c6/speffile.jpg)
 
-## Post-STA analysis
+## Post-route STA analysis
 The following commands are used to get the min and max slacks which are hold and setup analysis.
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/f58fe808aa2b67e6086f007e50249817045d8b70/poststa.jpg)
 
