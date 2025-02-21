@@ -208,7 +208,7 @@ The power distribution network for the design is implemented using the command g
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/42bc9f7125b8c041de513506ebd50e2b02393a13/pdn_gen.jpg)
 
 The power distribution network layout is shown below
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/b3e1a29e73969e44a244b4bb9ad7b7760ff72b47/pdndefmagic.jpg)
 
 ## Detailed routing using Triton-route
 The current def file should be in pdn stage and set the ROUTING_STRATEGY should be 0 and then run the command run_routing.
