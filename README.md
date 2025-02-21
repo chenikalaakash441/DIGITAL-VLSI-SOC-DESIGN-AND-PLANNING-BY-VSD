@@ -193,7 +193,8 @@ re-placement
 * After cts the openroad is open for STA
 * In that after reading lef,def,tech libraries,db,verilog,sdc and linking design with picorv32a and then setting propagated clock and doing report checks of timing.
 * for min and max libraries the slack is 4.28
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/c3610e91822a2ae0780f5a3098cdeb6a9d9e27b7/slackofmimmaxlib.jpg)
+
 * for typical library the slack is -5.22
 * after removing sky130_fd_sc_hd_clkbuffer1 for typical library the slack is -5.15
 * after removing sky130_fd_sc_hd_clkbuffer1 for min max libraries the slack is 3.6395 for setup and for hold is 1.9582
