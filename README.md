@@ -172,7 +172,7 @@ re-Synthesis
 re-floorplan
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/1bf390cd90a362bb42553bf43ff1cdea904817ed/refloorplandone.jpg)
 
-re-placement
+re-placement - the placement def file is shown below which includes sky130_vsdinv cell.
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/60f715e13fd106a549c4330e176b7cdb71b53429/invplacementdeffile.jpg)
 
 
@@ -203,8 +203,26 @@ re-placement
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/119dd6a3a5538a2f34233b5601f7aaf555217c55/slackofminmaxwithoutbuff1.jpg)
 
 # Day 5 - Final steps for RTL2GDS using tritonRoute and openSTA
-## 
+## steps to build power distribution network
+The power distribution network for the design is implemented using the command gen_pdn but before this make sure that the current def file should be in cts stage.
+![image alt](
 
+The power distribution network layout is shown below
+![image alt](
+
+## Detailed routing using Triton-route
+The current def file should be in pdn stage and set the ROUTING_STRATEGY should be 0 and then run the command run_routing.
+![image alt](
+
+The routing layout is shown below
+![image alt](
+
+## spef extraction
+The spef file is extracted using following command shown in below
+![image alt](
+
+the spef file is shown below
+![image alt](
 
 
 
