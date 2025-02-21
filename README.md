@@ -153,7 +153,7 @@ proopagation delay of inverter is obtained by using magic layout tool with defin
 ## Steps to convert grid info to track info
 the layout of inverter is modified with the grids by using grid command with metal informations of x and y coordinates with some spacing after generating of grids check that the contacts are placed at the interconnect of vertical and horizontal grid lines.
 the cell dimensions are placed with in these grids i.e., odd multliple of height and widths of metals dimensions.
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/33c0bb9b8f4c77b26344c2ddcd0dec0fffc64b78/withgrid.jpg)
 The track info is shown below
 ![image alt](
 
