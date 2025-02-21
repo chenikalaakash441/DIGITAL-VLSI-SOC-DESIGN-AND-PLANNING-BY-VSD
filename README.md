@@ -182,7 +182,7 @@ re-placement
 
 * the slack is checked it is not met
 * after analysing net connections and the cells, the cells with more delay are replaced with large size cells such that slack is reduced and it is obtained as -21.85 from -26.64
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/2313dadd8edc65f75a17f6aa7b7175d0ba3fd9e5/slack21afternewsynth.jpg)
 * this synthesized netlist is updated and overwrited in the synthesis results of design.
 
 ## re-floorplan and re-placement and cts done
