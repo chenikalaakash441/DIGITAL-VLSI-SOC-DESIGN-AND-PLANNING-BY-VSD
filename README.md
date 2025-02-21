@@ -215,7 +215,7 @@ The current def file should be in pdn stage and set the ROUTING_STRATEGY should 
 ![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/4eb86ab76e1792843e469ba53019f46c3f8572f5/routedfilegenerated.jpg)
 
 The routed def file is shown below
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/33b52f1819883d74ba82b5773f40883e6a0e055b/routeddeffile.jpg)
 
 The routing layout is shown below
 ![image alt](
