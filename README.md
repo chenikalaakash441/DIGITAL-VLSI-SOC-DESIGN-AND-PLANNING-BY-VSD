@@ -167,7 +167,7 @@ the lef file of std cell of inverter is obtained by doing write lef in tickon wi
 
 ## re-synthesis and re-floorplan and re-placement with vsdinv
 re-Synthesis
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/c8229110c59aa40d9241e441304e4bb2a1bb37e0/synthesisofinvlefsuccess.jpg)
 
 re-floorplan
 ![image alt](
