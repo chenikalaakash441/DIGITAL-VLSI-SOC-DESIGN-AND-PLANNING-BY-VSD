@@ -178,7 +178,7 @@ re-placement
 
 ## Steps to configure openSTA for post-synth timing analysis
 * the pre_sta_config.tcl is created giving synthesized netlist as input
-![image alt](
+![image alt](https://github.com/chenikalaakash441/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING-BY-VSD/blob/c5f13c9b90ef1266ed3b72e3c03c33bd4c3706b1/stafile.jpg)
 
 * the slack is checked it is not met
 * after analysing net connections and the cells, the cells with more delay are replaced with large size cells such that slack is reduced and it is obtained as -21.85 from -26.64
